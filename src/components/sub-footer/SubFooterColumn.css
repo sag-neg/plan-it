@@ -1,0 +1,7 @@
+.listing_item > li{
+    list-style: none;
+    margin: 15px;
+}
+.column > h5{
+    text-align: center;
+}

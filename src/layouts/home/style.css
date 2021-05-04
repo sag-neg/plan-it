@@ -1,0 +1,59 @@
+.homepage_item_contanier{
+    display: flex;
+    flex-direction: row;
+   
+    
+
+}
+.left_section{
+    width: 50%;
+    padding: 250px;
+
+}
+.right_section{
+    width: 81%;
+    margin: 101px 113px 14px -292px;
+}
+.home_image{
+    width: 67%;
+    padding: 99px;
+}
+.working_Steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.working_Steps .section_item_contanier:nth-child(2) {
+    flex-direction: row-reverse;
+}
+/* .working_Steps:nth-child(even) {
+    flex-direction: row-reverse;
+} */
+h1{
+    text-align: center;
+}
+.user_email_section{
+    width: 29%;
+    padding-left: 547px;
+    margin-bottom: 119px;
+    text-align: center;
+    
+}
+.feature_section{
+    text-align: center;
+}
+.feature_section_image{
+    width: 710px;
+    height: 347px;
+}
+.feature_section_card{
+            display:flex;
+            flex-direction: row;
+            margin: 4% 23%;
+
+            justify-content: space-between;          
+}
+.email_user_input{
+    display: flex;
+
+}

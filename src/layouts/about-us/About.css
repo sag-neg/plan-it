@@ -1,0 +1,16 @@
+.about_right_section{
+    margin-right: 355px;
+}
+.about_container{
+    display: flex;
+    padding: 155px 46px 90px 293px;
+}
+
+.about_image{
+    width: 397px;
+    height: 342px; 
+}
+.about_right_section > p > a{
+    text-decoration: underline;
+    color: #00a2ff;
+}

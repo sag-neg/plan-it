@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.section{
+    margin: 105px 0px 100px 0px;
+}
+   
+
+.signUp-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    padding: 52px 67px 27px 59px;
+    width: 100%;
+}
+.login_logo{
+    width: 30%;
+    height: 82px;
+   margin:  23px 0px -37px 185px;
+
+}
+.email_input{
+    margin-bottom: 13px;
+    padding: 14px 37px 15px 33px;
+}
+.sub_section_section > h4{
+    text-align: center;
+    padding: 0px 0px 9px 95px;
+}
+.logIn_link{
+    color:#00a3fa !important;
+    text-decoration: underline !important;
+}

@@ -1,0 +1,49 @@
+header > nav > ul {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+}
+.logo_image{
+    display: inline-block;
+    width: 120px;
+    
+}
+.navigation_bar{
+    
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    box-shadow: 0 7px 20px -5px rgb(0 0 0 / 20%);
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+    background-color: white;    
+}
+li{
+    text-decoration: auto !important;
+    margin: 26px;
+    font-size: 16px;
+    color: black !important;
+    background-color: white;
+    
+}
+.navbar_submit_button{
+    color: #fff;
+    background-color: #00a2ff;
+    border-radius: 3px;
+    margin: 0 14px;
+    padding: 5px 14px;
+    border-style: none;
+}
+header > nav > ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.navigation_bar::after 
+{
+    box-shadow : 0ch;
+
+}

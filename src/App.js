@@ -8,14 +8,7 @@ import Routing from './Route';
 function App() {
   return (
     <React.Fragment>
-           
-      
-      <Navigation/>
-      <Routing>
-        <Home></Home>
-      </Routing>
-      <Footer/> 
-     
+      <Routing/>
     </React.Fragment>
   );
 }

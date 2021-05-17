@@ -1,0 +1,26 @@
+.image_hero{  
+    height:80%;
+    position: relative;
+    display: flex;
+    
+}
+.image{
+    width: 96em;
+    height: 392px;
+}
+
+.text_hero{
+    position: absolute;
+    padding-left: 552px;
+    padding-top: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+.button{
+    border-radius: 5px 6px;
+    border-style: none;
+    padding: 16px 43px;
+    margin: auto;
+}

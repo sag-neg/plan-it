@@ -1,0 +1,19 @@
+.card_container{
+    width: 202px;
+    height: 125px;
+    text-align: center;
+
+}
+.image_card{
+    width: 75px;
+    height: 82px;
+}
+.card_icon:hover {
+    background-color: rgb(244, 244, 252);
+    border-radius: 5px;
+    
+}
+.card_icon{
+   
+    height: 125px;
+}

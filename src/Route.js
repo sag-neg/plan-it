@@ -1,5 +1,6 @@
 import React from "react";
-import { Switch, Route,Redirect } from "react-router-dom";
+import { Switch, Route} from "react-router-dom";
+import Newcomponent from "./components/Newcomponent";
 import About from "./layouts/about-us/About";
 import ContactUs from "./layouts/contact-us/ContactUs";
 import Home from "./layouts/home/Home";
@@ -16,7 +17,7 @@ function Routing() {
       <Route exact path="/ContactUs" component={ContactUs} />
       <Route exact path="/SignUp" component={SignUp} />
       <Route exact path="/LogIn" component={LogIn} />
-      
+      <Route exact path="/New" component={Newcomponent}/> 
       <Route path="*" component={Home} />
     </Switch>
   );

@@ -12,6 +12,7 @@ function Navigation() {
               <li><Link to="/">Home</Link></li>
               <li><Link to="/about">About Us</Link></li>
               <li><Link to="/contactUs">Contact us</Link></li>
+              <li><Link to="/new">New</Link></li>
               <li><Link to="/signUp" ><input className="navbar_submit_button" type="submit" value="Sign Up">
 
               </input></Link></li>

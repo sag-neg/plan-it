@@ -2,12 +2,16 @@ import Button from '../../components/commons/button/Button';
 import EmailUserInput from '../../components/commons/email-input/EmailUserInput';
 import Section from '../../components/commons/section/Section';
 import FeatureSection from '../../components/featureSection/Feature_Section';
+import Footer from '../../components/footer/footer';
+import Navigation from '../../components/navigation/navigation';
 import SubFooter from '../../components/sub-footer/SubFooter';
 import './style.css';
+import Newcomponent from '../../components/Newcomponent';
 
 const Home = () => {
     return (
         <>
+        <Navigation/>
             <div className="homepage_item_contanier">
                 <div className="left_section">
                     <h1>
@@ -19,7 +23,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="right_section">
-                    <a>
+                    <a href="">
                         <img className="home_image" src="./images/home.jpg" alt="logo" /></a>
 
                 </div>
@@ -61,6 +65,7 @@ const Home = () => {
                 </div>
             </div>
             <SubFooter />
+            <Footer/>
         </>
     );
 }

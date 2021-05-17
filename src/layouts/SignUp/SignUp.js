@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "../../components/commons/button/Button";
 import EmailUserInput from "../../components/commons/email-input/EmailUserInput";
 import "./SignUp.css"
@@ -17,8 +18,7 @@ const SignUp = ()=>{
             
         <EmailUserInput/>
           <Button/>       
-          <p> Already have an account? <a className="logIn_link" href="">Log in.</a></p>
-
+          <p> Already have an account?<Link to="/logIn" > <a className="logIn_link">Log in.</a></Link></p>
             </div>
 
         </div>
